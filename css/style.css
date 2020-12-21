@@ -1,0 +1,84 @@
+body{
+	background-color: darkblue;
+}
+
+/* Bilden över menyn */
+.icon{
+	width: 9%;
+	float: left;
+	margin-top: 0.6%;
+}
+
+/* Meny */
+.menu{
+	background-color: gold;
+	padding: 15px;
+	margin-top: 2%;
+}
+
+/* Menylänkarna */
+.menuLink{
+	color: blue;
+	padding: 1.5%;
+	text-decoration: none;
+}
+
+/* Den aktiva menylänken */
+.activeMenuLink{
+	color: purple;
+	padding: 1.5%;
+	text-decoration: none;
+}
+
+/* Mouse Over funktion för alla mina länkar */
+a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+/* Bilder på hem */
+.imageHem{
+	width: 100%;
+	margin-top: 15px;
+}
+
+/* Youtube filmen */
+.youtube{
+	width: 50%;
+}
+
+/* Bilder på platser och skidor */
+.imagePlatserSkidor{
+	width: 100%;
+}
+
+/* Tabellen på om mig */
+table, tr, td, th{
+	border: 2px black solid;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+.marginTop{
+	margin-top: 15px;
+}
+
+/* Bakgrund 1 för tabellen */
+.tableBackground1{
+	background-color: white;
+}
+
+/* Bakrund 2 för tabellen */
+.tableBackground2{
+	background-color: lightgray;
+}
+
+/* Bilder i tabellen */
+.tableImage{
+	width: 100px;
+}
+
+/* Bakrundsfärg för hela sidan */
+.containerBackground{
+	background-color: lightblue;
+}
